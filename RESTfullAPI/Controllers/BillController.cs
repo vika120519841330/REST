@@ -23,11 +23,11 @@ namespace RESTfullAPI.Controllers
             return bl.ShowAllBills();
         }
 
-        //[HttpGet]
-        //Bill GetBill(int id)
-        //{
-        //    return bl.GetBill(id);
-        //}
+        [HttpGet]
+        Bill GetBill(int id)
+        {
+            return bl.GetBill(id);
+        }
 
         [HttpPost]
         Bill OpenBill(Bill inst)
