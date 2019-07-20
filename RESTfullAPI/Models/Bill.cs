@@ -13,6 +13,6 @@ namespace RESTfullAPI.Models
         public double BillBalance { get; set; }
 
         // Идентификатор владельца р/с
-        public int OwnerId { get; set; }
+        public int Owner { get; set; }
     }
 }

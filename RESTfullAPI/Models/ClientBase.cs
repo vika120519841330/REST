@@ -23,14 +23,14 @@ namespace RESTfullAPI.Models
                         BillId = 11,
                         BillBalance = 120,
                         BillNumber = "123456781",
-                        OwnerId = 1
+                        Owner = 1
                     },
                     new Bill
                     {
                         BillId = 12,
                         BillBalance = 0,
                         BillNumber = "123456782",
-                        OwnerId = 1
+                        Owner = 1
                     }
                 }
             },
@@ -46,14 +46,14 @@ namespace RESTfullAPI.Models
                         BillId = 13,
                         BillBalance = 1100,
                         BillNumber = "123456783",
-                        OwnerId = 2
+                        Owner = 2
                     },
                     new Bill
                     {
                         BillId = 14,
                         BillBalance = 1230,
                         BillNumber = "123456784",
-                        OwnerId = 2
+                        Owner = 2
                     }
                 }
             },
@@ -69,7 +69,7 @@ namespace RESTfullAPI.Models
                         BillId = 15,
                         BillBalance = 57457,
                         BillNumber = "123456785",
-                        OwnerId = 3
+                        Owner = 3
                     }
                 }
             }
