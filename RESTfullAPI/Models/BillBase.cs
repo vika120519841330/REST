@@ -47,7 +47,7 @@ namespace RESTfullAPI.Models
             }
         };
         // Статический обьект класса
-        private static BillBase bb = new BillBase();
+        public static BillBase bb = new BillBase();
         public static IBillBase GetStaticClient()
         {
             return bb;

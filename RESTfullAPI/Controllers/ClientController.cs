@@ -10,7 +10,7 @@ namespace RESTfullAPI.Controllers
 {
     public class ClientController : ApiController
     {
-        IClientBase cl = ClientBase.GetStaticClient();
+        public IClientBase cl = ClientBase.GetStaticClient();
         
         [HttpGet]
         public IEnumerable<Client> ShowAllClients()
